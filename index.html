@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlight | Parallax Scrolling Website</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">moonlight</a>
+        <ul>
+            <li><a href="index.html" class="active">home</a></li>
+            <li><a href="#" class="">about</a></li>
+            <li><a href="#" class="">work</a></li>
+            <li><a href="#" class="">contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="assets/img/stars.png" alt="Stars" id="stars">
+        <img src="assets/img/moon.png" alt="Moon" id="moon">
+        <img src="assets/img/mountains_behind.png" alt="Mountain Behind" id="mountains_behind">
+        <h2 id="text">moonlight</h2>
+        <a href="" class="btn" id="btn">Explore</a>
+        <img src="assets/img/mountains_front.png" alt="Mountain on the front." id="mountains_front">
+    </section>
+    <div class="about" id="about">
+        <h2>Parallax Scrolling Effects </h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur repellat in sequi excepturi hic. Aperiam autem fuga doloribus voluptas molestiae unde recusandae amet distinctio ut animi est, alias, quod eum?
+        Totam corporis quas possimus expedita iste et, nesciunt temporibus maxime officia porro libero id nam aliquam, nostrum sequi autem? Ab ducimus commodi et dolores voluptate! Laborum placeat voluptatibus tenetur sed?
+        Molestiae porro quam perspiciatis! Mollitia molestiae animi quas et nesciunt cupiditate ullam eum, reprehenderit, aliquam ut provident autem amet delectus officiis alias totam. Veniam, quam. Repellendus sint eaque accusamus reprehenderit?
+        Ratione voluptatibus necessitatibus sunt illo natus dolor veniam dolore consequatur iste delectus atque animi nemo, nobis omnis blanditiis doloremque velit, dolores debitis culpa odio pariatur voluptatem iure molestias. Eveniet, sint.</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta perferendis qui ipsum eum quaerat, vitae officia nemo a nostrum iste mollitia nulla suscipit rerum eius similique nam alias perspiciatis sapiente?
+        Aut amet quas, eveniet a possimus tempore voluptate rerum quis consequatur maxime dignissimos non quo nihil ea, eaque eum magnam vel saepe reiciendis inventore praesentium assumenda! Soluta veniam laboriosam quasi.
+        Labore nemo quidem rerum. Iste cupiditate tempora laboriosam commodi vero ea molestiae odit asperiores fuga sit voluptatem illo quia rerum accusantium iusto, nisi at facere enim consequuntur a. Saepe, cumque.
+        Ipsum sunt eum consequuntur veniam facilis fuga rerum, similique ducimus pariatur sed itaque sit, perspiciatis, incidunt dolore labore aspernatur nam voluptatem cum repellendus iure. Corporis ducimus porro accusamus voluptates minus!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nostrum cum maiores aliquid. Numquam, maxime vitae culpa quo ad recusandae eaque, dolorum mollitia amet suscipit repellendus perferendis ex, odit necessitatibus?
+        Iure eligendi natus, voluptatum temporibus corporis commodi saepe optio ad. Sequi, adipisci! Maxime architecto aut numquam animi eius commodi possimus suscipit quaerat omnis, hic soluta nostrum incidunt repellendus sit earum.
+        Quaerat, facilis et. Quae pariatur, nisi explicabo, libero placeat aspernatur facilis assumenda aliquid culpa voluptates, suscipit qui? Qui veniam, voluptatem, illo pariatur eos voluptatum placeat voluptates, aspernatur sapiente esse ipsum.
+        Tenetur, neque placeat. Molestiae, corrupti dicta possimus minima aperiam perspiciatis corporis non dolor animi error vero, ea distinctio eaque doloribus sit ipsum officiis voluptatum sapiente! Eum quas optio facere suscipit.</p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/jQuery.scrollSpeed.js"></script>
+    <script src="assets/js/parallaxScrolling.js"></script>
+    <script>
+        $(function () {
+
+            // Default
+            jQuery.scrollSpeed(100, 800);
+
+            // Custom Easing
+            jQuery.scrollSpeed(100, 800, 'easeOutCubic');
+
+        });
+    </script>
+</body>
+</html>
